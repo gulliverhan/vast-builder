@@ -1,13 +1,14 @@
 
 const fs = require('fs-extra');
 const path = require('path');
-const diff = require('jest-diff');
-const { NO_DIFF_MESSAGE } = require('jest-diff/build/constants');
+const diff = require('jest-diff').diff;
+//const { NO_DIFF_MESSAGE } = require('jest-diff/build/constants');
+const NO_DIFF_MESSAGE = 'Compared values have no visual difference.';
 const createVast = require('../lib/index');
 
 function assertEqual(base, expected) {
   const out = diff(base.trim(), expected.trim());
-  if (out !== NO_DIFF_MESSAGE) {
+  if (!out.includes( NO_DIFF_MESSAGE)) {
     throw new Error('\n' + out);
   }
 }
