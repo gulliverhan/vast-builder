@@ -534,17 +534,17 @@ class MediaFiles_36 extends VastElement {
   }
   /** 
    * @param {string} content
-   * @param {{id: string, delivery:("progressive"|"streaming"), type: string, bitrate: string, minBitrate: string, maxBitrate: string, width: string, height: string, scalable: string, mantainAspectRatio: string, codec: string, apiFramework: string}} attributes
+   * @param {{id: string, delivery:("progressive"|"streaming"), type: string, bitrate: string, minBitrate: string, maxBitrate: string, width: string, height: string, scalable: string, maintainAspectRatio: string, codec: string, apiFramework: string}} attributes
    * @returns {MediaFile_38} 
    */
   attachMediaFile(content, attributes) {
-    const newElem = new MediaFile_38('MediaFile', this, {"attrs":["id","delivery","type","bitrate","minBitrate","maxBitrate","width","height","scalable","mantainAspectRatio","codec","apiFramework"]} /*: Infos*/, content, attributes);
+    const newElem = new MediaFile_38('MediaFile', this, {"attrs":["id","delivery","type","bitrate","minBitrate","maxBitrate","width","height","scalable","maintainAspectRatio","codec","apiFramework"]} /*: Infos*/, content, attributes);
     this.childs.push(newElem);
     return newElem;
   }
   /** 
    * @param {string} content
-   * @param {{id: string, delivery:("progressive"|"streaming"), type: string, bitrate: string, minBitrate: string, maxBitrate: string, width: string, height: string, scalable: string, mantainAspectRatio: string, codec: string, apiFramework: string}} attributes
+   * @param {{id: string, delivery:("progressive"|"streaming"), type: string, bitrate: string, minBitrate: string, maxBitrate: string, width: string, height: string, scalable: string, maintainAspectRatio: string, codec: string, apiFramework: string}} attributes
    * @returns {MediaFiles_36} 
    */
   addMediaFile(content, attributes) {

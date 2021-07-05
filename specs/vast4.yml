@@ -112,7 +112,7 @@ VAST:
                   - width:
                   - height:
                   - scalable
-                  - mantainAspectRatio
+                  - maintainAspectRatio
                   - codec
                   - apiFramework
               InteractiveCreativeFile:
