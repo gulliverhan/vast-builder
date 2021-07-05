@@ -98,7 +98,7 @@ VAST:
                   - width:
                   - height:
                   - scalable
-                  - mantainAspectRatio
+                  - maintainAspectRatio
                   - apiFramework
           CompanionAds:
             uniq: true # at least one of this subitems

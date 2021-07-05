@@ -530,7 +530,7 @@ addMediaFile(content: string, attributes: {
   width: string /* required */, 
   height: string /* required */, 
   scalable: string /* required */, 
-  mantainAspectRatio: string /* required */, 
+  maintainAspectRatio: string /* required */, 
   apiFramework: string /* required */
 }): MediaFiles
 ```
@@ -547,7 +547,7 @@ attachMediaFile(content: string, attributes: {
   width: string /* required */, 
   height: string /* required */, 
   scalable: string /* required */, 
-  mantainAspectRatio: string /* required */, 
+  maintainAspectRatio: string /* required */, 
   apiFramework: string /* required */
 }): MediaFile
 ```
