@@ -43,15 +43,16 @@
   },
   "babel": {},
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
-    "chai": "^4.1.2",
-    "codecov": "latest",
-    "fs-extra": "^5.0.0",
-    "jest": "^22.2.2",
-    "js-yaml": "^3.10.0",
-    "memwatch-next": "^0.3.0",
-    "sinon": "^4.3.0",
-    "sinon-chai": "^2.14.0"
+    "@ardatan/node-memwatch": "^1.0.8",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "chai": "^4.3.4",
+    "codecov": "^3.8.2",
+    "fs-extra": "^10.0.0",
+    "jest": "^27.0.6",
+    "jest-diff": "^27.0.6",
+    "js-yaml": "^3.14.1",
+    "sinon": "^11.1.1",
+    "sinon-chai": "^3.7.0"
   }
 }

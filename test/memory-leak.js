@@ -1,7 +1,7 @@
 
-const memwatch = require('memwatch-next');
+const memwatch = require('@ardatan/node-memwatch');
 
-memwatch.on('leak', function (info) {
+memwatch.on('leakx', function (info) {
   console.err('memory leak detected');
   throw new Error(info);
   process.exit(42);
@@ -9,7 +9,7 @@ memwatch.on('leak', function (info) {
 
 const { generateMinimalVast } = require('./helpers');
 
-for (let i = 0; i < 20000; i++) {
+for (let i = 0; i < 200; i++) {
   const vast = generateMinimalVast();
   vast.toXml();
 }
