@@ -1,6 +1,6 @@
 {
   "name": "vast-builder",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "An intuitive standard IAB Vast XML generation API. Complient with specifications Vast 2.0 / 3.0 / 4.0",
   "keywords": [
     "vast",
